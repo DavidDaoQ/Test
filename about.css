@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70%;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 1.8rem;
+}
+
+.logo {
+    margin: 2rem 4rem;
+}
+
+.logo-image {
+    width: 3.5rem;
+}
+
+.logo-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 12px;
+    left: 3px;
+}
+
+.nav-menu {
+    margin: 2rem 4rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 1rem;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 9px;
+}
+
+.section {
+    align-items: center;
+    color: #1a1b1f;
+    display: grid;
+    gap: 30px 50px;
+    grid-auto-columns: 1fr;
+    grid-template-areas: ". .";
+    grid-template-columns: 419.225px 670.775px;
+    grid-template-rows: 488.962px;
+    line-height: 28px;
+    margin: 30px 100px 30px 140px;
+    width: 120rem;
+}
+
+.text-info {
+    color: #1a1c20;
+    text-align: justify;
+    margin: 10rem 4rem;
+}
+
+.text-info h1 {
+    color: #1a1c20;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 90px;
+    margin: 10px 0px;
+}
+
+.text-info p {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0px 0px 50px;
+}
+
+.section-career {
+    display: flex;
+    line-height: 28px;
+    justify-content: space-between;
+    padding: 25px 30px;
+    width: 110rem;
+}
+
+.content-career {
+    text-align: justify;
+    width: 70rem;
+}
+
+.content-career h3 {
+    color: #1a1b1f;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 20px 0px 15px;
+}
+
+.content-career p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0px 0px 50px;
+    text-align: left;
+}
+
+.name-career {
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.name-sevice {
+    border: 1px solid black;
+    border-radius: 9px;
+    margin: 0 0px 10px 10px;
+    padding: 1rem 1rem;
+}
+
+.section-social {
+    width: 110rem;
+}
+
+.content-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-info img {
+    width: 12rem;
+    border-radius: 200px;
+    color: #1a1b1f;
+    line-height: 28px;
+    margin-top: 2rem;
+    margin-right: 9rem;
+}
+
+.section-social h1 {
+    color: #1a1b1f;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 20px 0px 15px;
+    padding: 30px 0px 0px;
+}
+
+.social-info h5 {
+    color: #1a1b1f;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 10px 0px 0px;
+    text-align: left;
+}
+
+.text-block {
+    color: #1a1b1f;
+    line-height: 28px;
+}
+
+.text-socail {
+    font-size: 20px;
+    font-weight: 300;
+    grid-area: span 1 / span 3 / span 1 / span 3;
+    line-height: 32px;
+    margin: 0px 0px 50px;
+    padding: 30px 0px 0px;
+}
+
+.div-block {
+    background-color: #eeeff1;
+    border-radius: 15px;
+    color: #1a1b1f;
+    line-height: 28px;
+    margin: 1px;
+    display: flex;
+}
+
+.div-block h3 {
+    color: #1a1b1f;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 88px;
+    margin: 15px 0px 20px;
+    text-align: left;
+}
+
+.form-register {
+    color: #1a1b1f;
+    line-height: 28px;
+}
+
+.div-block {
+    border: 2px solid black;
+    padding: 1rem 1rem;
+}
+
+.form-register label {
+    color: #8f929e;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px 0px 5px;
+}
+
+.form-register input {
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #333333;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0px 0px 18px;
+    padding: 1rem 2rem;
+    border: none;
+    padding: 1rem 1rem;
+}
+
+.form-register textarea {
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #333333;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0px 0px 18px;
+    padding: 1rem 2rem;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div img {
+    width: 40px;
+    color: #32343a;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.menu-footer {
+    margin-right: 5rem;
+}
+
+.footer-div a {
+    margin-right: 1rem;
+}
+
+.text-footer {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
